@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-16T16:29:20.810Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" etag="gWNq_jaOSgGPaGsuE5eE" version="21.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-16T16:32:25.200Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" etag="ZuGFrRyfuODIDhaDA4ju" version="21.3.2" type="github" pages="2">
   <diagram name="第 1 页" id="2v_ZkfaAkdRgTlp89A7X">
     <mxGraphModel dx="1434" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -129,6 +129,18 @@
         </mxCell>
         <mxCell id="B92O2mrmRbrXzsFY0ljC-5" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;作用&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;解析serviceDescriptor&lt;/div&gt;&lt;div style=&quot;&quot;&gt;获得optionList，包括注册http接口的option&lt;/div&gt;&lt;div style=&quot;&quot;&gt;httpOption 将url关联到absMethod，并将absMethod注册到httpRouteMap&lt;/div&gt;&lt;div style=&quot;&quot;&gt;这些option在Register的最后执行&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;参数：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;serviceDescriptor&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;返回：&lt;/div&gt;&lt;div style=&quot;&quot;&gt;optionList&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="420" y="180" width="410" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="1SYwH5lieElDzFQl5X1L-1" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="10" y="140" as="sourcePoint" />
+            <mxPoint x="140" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1SYwH5lieElDzFQl5X1L-3" value="init" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1SYwH5lieElDzFQl5X1L-1">
+          <mxGeometry x="-0.1846" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
